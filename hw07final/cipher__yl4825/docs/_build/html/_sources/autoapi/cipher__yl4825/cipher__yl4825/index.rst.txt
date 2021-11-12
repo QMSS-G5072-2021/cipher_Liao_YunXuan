@@ -1,0 +1,39 @@
+:py:mod:`cipher__yl4825.cipher__yl4825`
+=======================================
+
+.. py:module:: cipher__yl4825.cipher__yl4825
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher__yl4825.cipher__yl4825.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   This function can shift letter by a defined units in a text.
+
+   :param text: A string of text.
+   :type text: str
+   :param shift: Units of how the letter is shifted to the left(-) or right(+).
+   :type shift: int
+   :param encrypt: Default is True for encryption.
+   :type encrypt: bool
+
+   :returns: The encrypted or decrypted string.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> cipher("hi", 1)
+   'ij'
+
+
